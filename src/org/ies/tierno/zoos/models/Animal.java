@@ -1,16 +1,16 @@
-package org.ies.tierno.zoos;
+package org.ies.tierno.zoos.models;
 
 import java.util.Objects;
 
 public abstract class Animal {
     protected String specie;
     protected int age;
-    protected String nanme;
+    protected String name;
 
-    public Animal(String specie, int age, String nanme) {
+    public Animal(String specie, int age, String name) {
         this.specie = specie;
         this.age = age;
-        this.nanme = nanme;
+        this.name = name;
     }
 
     public String getSpecie() {
@@ -29,12 +29,12 @@ public abstract class Animal {
         this.age = age;
     }
 
-    public String getNanme() {
-        return nanme;
+    public String getName() {
+        return name;
     }
 
-    public void setNanme(String nanme) {
-        this.nanme = nanme;
+    public void setName(String name) {
+        this.name = name;
     }
 
     @Override
@@ -42,12 +42,12 @@ public abstract class Animal {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Animal animal = (Animal) o;
-        return age == animal.age && Objects.equals(specie, animal.specie) && Objects.equals(nanme, animal.nanme);
+        return age == animal.age && Objects.equals(specie, animal.specie) && Objects.equals(name, animal.name);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(specie, age, nanme);
+        return Objects.hash(specie, age, name);
     }
 }
 

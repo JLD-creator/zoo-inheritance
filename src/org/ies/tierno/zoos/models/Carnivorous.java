@@ -1,4 +1,4 @@
-package org.ies.tierno.zoos;
+package org.ies.tierno.zoos.models;
 
 import java.util.Objects;
 
@@ -38,7 +38,7 @@ public class Carnivorous extends Animal {
                 "diet='" + diet + '\'' +
                 ", specie='" + specie + '\'' +
                 ", age=" + age +
-                ", nanme='" + nanme + '\'' +
+                ", nanme='" + name + '\'' +
                 '}';
     }
 }
