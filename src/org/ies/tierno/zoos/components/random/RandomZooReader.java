@@ -1,8 +1,8 @@
 package org.ies.tierno.zoos.components.random;
 
-import org.ies.tierno.zoos.Fanced;
-import org.ies.tierno.zoos.Zoo;
-import org.ies.tierno.zoos.components.Reader;
+import org.ies.tierno.zoos.models.Fanced;
+import org.ies.tierno.zoos.models.Zoo;
+import org.ies.tierno.zoos.components.readers.Reader;
 import org.ies.tierno.zoos.models.Animal;
 import org.ies.tierno.zoos.models.Carnivorous;
 import org.ies.tierno.zoos.models.Herbivorous;

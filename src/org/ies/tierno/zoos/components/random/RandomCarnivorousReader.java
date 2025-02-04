@@ -1,6 +1,6 @@
 package org.ies.tierno.zoos.components.random;
 
-import org.ies.tierno.zoos.components.Reader;
+import org.ies.tierno.zoos.components.readers.Reader;
 import org.ies.tierno.zoos.models.Carnivorous;
 
 import java.util.Random;

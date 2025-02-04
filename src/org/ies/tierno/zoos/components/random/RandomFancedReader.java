@@ -1,10 +1,9 @@
 package org.ies.tierno.zoos.components.random;
 
-import org.ies.tierno.zoos.Fanced;
-import org.ies.tierno.zoos.components.Reader;
+import org.ies.tierno.zoos.models.Fanced;
+import org.ies.tierno.zoos.components.readers.Reader;
 import org.ies.tierno.zoos.models.Animal;
 
-import java.awt.geom.Area;
 import java.util.Random;
 
 public class RandomFancedReader<T extends Animal> implements Reader<Fanced<T>> {

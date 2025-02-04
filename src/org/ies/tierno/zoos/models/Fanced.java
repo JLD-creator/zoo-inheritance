@@ -1,6 +1,4 @@
-package org.ies.tierno.zoos;
-
-import org.ies.tierno.zoos.models.Animal;
+package org.ies.tierno.zoos.models;
 
 import java.util.Arrays;
 import java.util.Objects;
